@@ -49,7 +49,7 @@ Create index.js file.
    yarn.lock
 ```
 
-In `index.js`, import express and body-parser, then invoke express in a new variable called `app`.
+In `index.js`, import express and body-parser, then invoke `express` in a new variable called `app`.
 ```
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -62,12 +62,21 @@ const app = express();
 app.use( bodyParser.json() );
 ```
 
-`app` can start listening. The port doesn't have to be 3030.
+It's ready to listen. The port doesn't have to be 3030.
 ```
 const port = 3030
 app.listen(port, () => {
    console.log('Listening on port: ' + port)
 });
+```
+
+Run file:
+```
+$ node index.js
+```
+or if you have nodemon
+```
+$ nodemon
 ```
 
 ...README in progress
