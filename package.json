@@ -1,0 +1,17 @@
+{
+  "name": "sequelize-express-postgres",
+  "version": "1.0.0",
+  "description": "Sequelize practice with postgres",
+  "main": "index.js",
+  "repository": "https://github.com/jemcafe/sequelize-express-postgres.git",
+  "author": "Jemaine",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "pg": "^7.4.3",
+    "sequelize": "^4.37.10"
+  }
+}
