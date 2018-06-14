@@ -71,7 +71,7 @@ app.listen(port, () => {
 ```
 
 Start server.
-```
+```-
 $ node index.js
 ```
 If you have nodemon, you can use that as well.
