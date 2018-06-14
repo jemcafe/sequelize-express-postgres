@@ -70,11 +70,11 @@ app.listen(port, () => {
 });
 ```
 
-Run file:
+Start server.
 ```
 $ node index.js
 ```
-or if you have nodemon
+If you have nodemon, you can use that as well.
 ```
 $ nodemon
 ```
